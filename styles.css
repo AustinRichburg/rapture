@@ -1,0 +1,137 @@
+body {
+    font-family: "Karma", sans-serif;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.header {
+    background: url("images/rapture.png") no-repeat center fixed;
+    background-size: cover;
+    background-position: right bottom;
+    height: 700px;
+    color: white;
+}
+
+.header-content {
+    height: 100%;
+    width: 30%;
+    margin: 50px 20px;
+    text-align: center;
+}
+
+.header-content h1 {
+    text-transform: capitalize;
+}
+
+.header-content p {
+    text-align: left;
+    line-height: 1.5em;
+}
+
+/* SHOWCASE */
+.showcase {
+    padding: 35px 50px;
+    background-color: 	#b2d8d8;
+}
+
+.showcase .card {
+    box-shadow: 3px 5px 6px #BBBBBB;
+    font-size: 1.25em;
+    height: 500px;
+}
+
+.showcase .card-title {
+    text-align: center;
+    font-size: 1.25em;
+}
+
+/* BUSINESS */
+.business {
+    padding: 60px 10px;
+    overflow: hidden;
+    position: relative;
+    background-color: #66b2b2;
+}
+
+.business h3 {
+    margin-right: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0 20px;
+}
+
+.business-cards {
+    margin-left: 40%;
+    font-size: 1.15em;
+}
+
+.business-card {
+    float: left;
+    margin: 35px 35px;
+    text-align: center;
+    width: 250px;
+}
+
+.business img {
+    background-color: black;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+.business .caption {
+    padding: 10px;
+}
+
+.preview {
+    background-color: #008080;
+    padding: 30px 15px;
+    text-align: center;
+    clear: both;
+}
+
+.preview-container {
+    margin: 0 auto;
+    text-align: center;
+    width: 40%;
+}
+
+.preview-container img {
+    height: 400px;
+    width: 650px;
+    margin: 25px 0;
+}
+
+.preview-container h3 {
+    font-family: "Berkshire Swash", sans-serif;
+}
+
+.contact {
+    position: relative;
+}
+
+#rap-map {
+    width: 60%;
+    height: 500px;
+}
+
+.contact-form {
+    width: 40%;
+    height: 500px;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 40px 60px;
+}
+
+.contact-form h4 {
+    text-align: center;
+}
+
+.contact-form input {
+    display: block;
+}

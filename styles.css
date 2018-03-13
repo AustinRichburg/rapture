@@ -1,9 +1,6 @@
-body {
-    font-family: "Karma", sans-serif;
-}
-
 .container-fluid {
     padding: 0;
+    font-family: "Karma", sans-serif;
 }
 
 .header {
@@ -11,23 +8,15 @@ body {
     background-size: cover;
     background-position: right bottom;
     height: 700px;
-    color: white;
+    display: block;
+    overflow: auto;
 }
 
 .header-content {
-    height: 100%;
     width: 30%;
     margin: 50px 20px;
     text-align: center;
-}
-
-.header-content h1 {
-    text-transform: capitalize;
-}
-
-.header-content p {
-    text-align: left;
-    line-height: 1.5em;
+    color: hsla(0, 0%, 100%, 0.86);
 }
 
 /* SHOWCASE */
@@ -37,14 +26,16 @@ body {
 }
 
 .showcase .card {
-    box-shadow: 3px 5px 6px #BBBBBB;
-    font-size: 1.25em;
+    box-shadow: 0 4px 6px rgb(131, 184, 184);
     height: 500px;
+    font-size: 1.25em;
+    color: hsl(0, 0%, 29%);
 }
 
 .showcase .card-title {
     text-align: center;
-    font-size: 1.25em;
+    font-weight: 700;
+    color: hsl(0, 0%, 13%);
 }
 
 /* BUSINESS */
@@ -53,6 +44,7 @@ body {
     overflow: hidden;
     position: relative;
     background-color: #66b2b2;
+    color: hsl(0, 0%, 13%);
 }
 
 .business h3 {
@@ -86,6 +78,7 @@ body {
     padding: 10px;
 }
 
+/* PREVIEW */
 .preview {
     background-color: #008080;
     padding: 30px 15px;
@@ -103,35 +96,29 @@ body {
     height: 400px;
     width: 650px;
     margin: 25px 0;
+    border-radius: 5%;
 }
 
-.preview-container h3 {
+.preview-container p {
+    font-weight: 100;
+    font-size: 40px;
+}
+
+.preview-container h2 {
+    font-size: 50px;
     font-family: "Berkshire Swash", sans-serif;
 }
 
-.contact {
-    position: relative;
-}
-
+/* CONTACT */
 #rap-map {
-    width: 60%;
     height: 500px;
 }
 
 .contact-form {
-    width: 40%;
     height: 500px;
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
     padding: 40px 60px;
 }
 
 .contact-form h4 {
     text-align: center;
-}
-
-.contact-form input {
-    display: block;
 }
